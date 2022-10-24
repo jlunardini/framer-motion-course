@@ -28,6 +28,7 @@ export default function EmailCard({}) {
       (el) => el.header != selectedEmail.header
     );
     setShownEmails(oldShown);
+    setSelectedEmail(false);
   }
 
   return (

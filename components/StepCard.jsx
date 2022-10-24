@@ -15,7 +15,9 @@ export default function StepCard({}) {
         layout
         className="mt-12 mb-8 text-gray-400 font-mono text-center md:text-left text-lg"
       >
-        <motion.p layout>Step {step}</motion.p>
+        <motion.p className="text-2xl font-semibold" layout>
+          Step {step}
+        </motion.p>
       </motion.div>
       <div className="flex flex-col md:flex-row justify-start md:justify-end mt-12 gap-4">
         <button
